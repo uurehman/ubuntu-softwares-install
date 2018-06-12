@@ -29,6 +29,7 @@
 
 #### Licence Key
 
+'''
 —– BEGIN LICENSE —–
 TwitterInc
 200 User License
@@ -42,6 +43,7 @@ D5D52613 C3D12E98 BC49967F 7652EED2
 9D2D2E61 67610860 6D338B72 5CF95C69
 E36B85CC 84991F19 7575D828 470A92AB
 —— END LICENSE ——
+'''
 
 -------------
 
@@ -81,6 +83,24 @@ sudo apt install kazam
 	sudo apt-get install tor-browser
 
 ------------
+
+## Installing LAMP
+Link: 	https://howtoubuntu.org/how-to-install-lamp-on-ubuntu 
+STEPS:
+1. Install Apache
+	sudo apt install apache2
+2. Install MySQL
+	sudo apt install mysql-server
+3. Install PHP
+	sudo apt install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+4. Restart Server
+	sudo service apache2 restart
+5. Check Apache
+"Open a web browser and navigate to http://localhost/. You should see a message saying It works!"
+6. Check PHP
+	php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+
+---------
 
 ## Show Internet speed in Menu Bar
 	sudo add-apt-repository ppa:nilarimogard/webupd8
